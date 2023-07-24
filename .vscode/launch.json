@@ -1,0 +1,45 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launcher",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "launcher (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "launcher (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "platform_part",
+            "cwd": "plugins/platform_part",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "platform_part (profile mode)",
+            "cwd": "plugins/platform_part",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "platform_part (release mode)",
+            "cwd": "plugins/platform_part",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
